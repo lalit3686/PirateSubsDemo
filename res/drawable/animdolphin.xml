@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+  <item android:drawable="@drawable/dolphin01" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin02" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin03" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin04" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin05" android:duration="50" />
+  <item android:drawable="@drawable/dolphin06" android:duration="50" />
+  <item android:drawable="@drawable/dolphin07" android:duration="50" />
+  <item android:drawable="@drawable/dolphin08" android:duration="50" />
+  <item android:drawable="@drawable/dolphin09" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin10" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin11" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin12" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin13" android:duration="50" />
+  <item android:drawable="@drawable/dolphin14" android:duration="50" />
+  <item android:drawable="@drawable/dolphin15" android:duration="50" />
+  <item android:drawable="@drawable/dolphin16" android:duration="50" />
+  <item android:drawable="@drawable/dolphin17" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin18" android:duration="50" /> 
+  <item android:drawable="@drawable/dolphin19" android:duration="50" />
+  <item android:drawable="@drawable/dolphin20" android:duration="50" />
+ </animation-list>

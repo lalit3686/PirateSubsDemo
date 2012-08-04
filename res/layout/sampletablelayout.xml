@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  
+  >
+    <TableRow>
+
+    <LinearLayout android:layout_width="fill_parent" android:orientation="horizontal"
+                    android:layout_height="wrap_content" android:weightSum="100">     // Mention Weightsum as 100 so that its easy to split among your views.
+
+        <TextView android:id="@+id/row1Label" 
+            android:layout_width="0dip" android:layout_weight="60"      
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView android:id="@+id/row1Label" 
+            android:layout_width="0dip" android:layout_weight="40"      
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    </TableRow>
+
+    <TableRow>
+
+    <LinearLayout android:layout_width="fill_parent" android:orientation="horizontal"
+                    android:layout_height="wrap_content" android:weightSum="100">
+
+        <TextView android:id="@+id/row2Label" 
+            android:layout_width="0dip" android:layout_weight="60"      
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView android:id="@+id/row3Label" 
+            android:layout_width="0dip" android:layout_weight="40"  
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+       
+
+    </LinearLayout>
+
+    </TableRow>
+  
+  
+</TableLayout>

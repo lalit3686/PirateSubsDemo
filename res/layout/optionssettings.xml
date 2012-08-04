@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center">
+
+	<FrameLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<RelativeLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<ImageView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/optionsbackground"/>
+
+		<FrameLayout 
+		android:id="@+id/FrameMenu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="10dp">
+		
+		<ImageView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/optionsmenu" />
+		</FrameLayout>
+		
+		<FrameLayout 
+		android:id="@+id/FrameArrowButton"
+		android:layout_below="@+id/FrameMenu"
+		android:layout_marginLeft="13dp"
+		android:layout_marginTop="24dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<ImageView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/optionsgs" />
+		</FrameLayout>
+		
+		<LinearLayout 
+		android:layout_toRightOf="@+id/FrameMenu"
+		android:layout_marginTop="11dp"
+		android:layout_marginLeft="180dp"
+		android:id="@+id/optionssong"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<ImageView 
+		android:id="@+id/optionSound"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/optionssound" />
+		<ImageView 
+		android:id="@+id/optionSong"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/optionssong" />
+		</LinearLayout>
+	
+		<LinearLayout 
+		android:id="@+id/optionssong"
+		android:layout_toRightOf="@+id/FrameArrowButton"
+		android:layout_below="@+id/FrameMenu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:layout_marginLeft="28dp">
+		
+		<FrameLayout
+		android:id="@+id/optionsfacebook" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		>
+		
+		<ImageView 
+		android:id="@+id/btnFacebook"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="5dip" 
+		android:src="@drawable/optionsfacebook" />
+		</FrameLayout>
+		
+		<FrameLayout
+		android:id="@+id/optionstwitter" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/optionsfacebook"
+		android:layout_weight="1"
+		>
+		
+		<ImageView 
+		android:id="@+id/btnTwitter"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:padding="5dip" 
+		android:src="@drawable/optionstwitter" />
+		</FrameLayout>
+		
+		<FrameLayout
+		android:id="@+id/optionsyoutube" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/optionstwitter"
+		android:layout_weight="1"
+		>
+		
+		<ImageView 
+		android:id="@+id/btnYoutube"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:padding="5dip" 
+		android:src="@drawable/optionsyoutube" />
+		</FrameLayout>
+		
+		<!--<FrameLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/optionsyoutube"
+		android:id="@+id/frameLayout1">
+		
+		<ImageView 
+		android:id="@+id/btnMoregames"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:padding="5dip" 
+		android:src="@drawable/optionsmoregames" />
+		</FrameLayout>
+		--></LinearLayout>
+	</RelativeLayout>
+  </FrameLayout>
+</RelativeLayout>

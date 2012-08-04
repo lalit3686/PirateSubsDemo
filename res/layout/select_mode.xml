@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--set Background image  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/backgroundforground">
+	
+		
+		<!-- Make FrameLayout to bring image TopBackground & leaderBoardScreen  -->
+		<FrameLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+		>
+		<!-- TopFront Image -->
+		<ImageView android:id="@+id/topBackground"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/topbackgroundregular" />
+		<!-- leaderBorad Background Image -->
+		<LinearLayout
+			 android:layout_width="match_parent" android:layout_height="match_parent"
+			 android:background="@drawable/leaderboardscreen" 
+			 android:layout_gravity="center_horizontal|center_vertical"	
+			 android:weightSum="2"
+		>	
+		  
+				<!-- SelectMode -LeftPart -->
+				<LinearLayout 
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/modebackground"
+						android:layout_gravity="center_horizontal|center_vertical"
+						android:layout_marginLeft="20dip"
+						android:layout_weight="1"
+				>
+						
+						<FrameLayout
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							
+						>
+						<!-- Icons -->
+						<RelativeLayout
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							
+						>
+						
+											<LinearLayout
+													android:layout_width="wrap_content"
+													android:layout_height="wrap_content"
+													android:orientation="horizontal"
+													android:weightSum="4"
+													android:id="@+id/Linear1Icons"
+													android:layout_weight="1"
+												>
+													  <!-- Icon1 -->
+														<LinearLayout
+														android:layout_width="wrap_content"
+														android:layout_height="wrap_content"
+														android:layout_weight="1"
+														>			  
+															  <FrameLayout  
+															  android:layout_width="wrap_content"
+															  android:layout_height="wrap_content"
+															  android:layout_marginTop="40dp"
+															  android:layout_marginLeft="7dp"
+															  >
+															  
+															  <ImageView  android:background="@drawable/regularicon"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ibtnstar"/>
+															  <ImageView 
+																	  android:id="@+id/Img_Regular_icon_Anim"
+																	  android:layout_width="40dp"
+																	  android:layout_height="40dp"
+																	  android:background="@anim/button_anim"/>
+															  </FrameLayout>
+															 </LinearLayout>
+													  <!-- Icon2 -->
+													   <LinearLayout
+														android:layout_width="wrap_content"
+														android:layout_height="wrap_content"
+														android:layout_weight="1"
+														>
+															  <FrameLayout  
+															  android:layout_width="wrap_content"
+															  android:layout_height="wrap_content"
+															  android:layout_marginTop="40dp"
+															 
+															    >  
+															  <ImageView 
+															  android:layout_width="wrap_content" 
+															  android:layout_height="wrap_content"
+															  android:background="@drawable/timedicon"/>
+															  
+															  <ImageView 
+															  android:id="@+id/Img_TimedIcon_Anim"
+															  android:layout_width="40dp"
+															  android:layout_height="40dp"
+															  android:background="@anim/button_anim"/>
+															  </FrameLayout>
+														</LinearLayout>	  
+														<!-- Icon3 -->	
+														<LinearLayout
+														android:layout_width="wrap_content"
+														android:layout_height="wrap_content"
+														android:layout_weight="1"
+														>  
+															  	 <FrameLayout  
+																  android:layout_width="wrap_content"
+																  android:layout_height="wrap_content"
+																  android:layout_marginTop="40dp"
+																  >
+																  <ImageView 
+																  android:layout_width="wrap_content" 
+																  android:layout_height="wrap_content"
+																  android:background="@drawable/experticon"/>
+																  
+																  <ImageView 
+																  android:id="@+id/Img_ExpertIcon_Anim"
+																  android:layout_width="40dp"
+																  android:layout_height="40dp"
+																  android:background="@anim/button_anim"/>
+																  </FrameLayout>
+														</LinearLayout>		  
+														<!-- Icon4 -->
+														<LinearLayout
+														android:layout_width="wrap_content"
+														android:layout_height="wrap_content"
+														android:layout_weight="1"
+														>
+																  <FrameLayout  
+																  android:layout_width="wrap_content"
+																  android:layout_height="wrap_content"
+																  android:layout_marginTop="40dp"
+																  android:layout_marginRight="7dp"
+																  >
+																  
+																  <ImageView 
+																  android:id="@+id/ImgRegularicon"
+																  android:background="@drawable/cheaticon" 
+																  android:layout_width="wrap_content" 
+																  android:layout_height="wrap_content"/>
+																  
+																  <ImageView 
+																  android:id="@+id/Img_Cheat_icon_Anim"
+																  android:layout_width="40dp"
+																  android:layout_height="40dp"
+																  android:background="@anim/button_anim"/>
+																  </FrameLayout>
+														 </LinearLayout>
+														</LinearLayout> 
+						
+													<!-- SecondRow Images -->
+														<LinearLayout
+															android:layout_width="wrap_content"
+															android:layout_height="wrap_content"
+															android:orientation="horizontal"
+															android:weightSum="3"
+															android:id="@+id/Linear2Icons"
+					 										
+					 										android:layout_below="@id/Linear1Icons"
+					 										android:layout_weight="1"
+														 >
+													  	<!-- Icon5 -->
+														<LinearLayout
+														android:layout_width="wrap_content"
+														android:layout_height="wrap_content"
+														android:layout_weight="1"
+														>			  
+														 <FrameLayout  
+																  android:layout_width="wrap_content"
+																  android:layout_height="wrap_content"
+																  android:layout_marginLeft="7dp"
+																  android:layout_marginTop="5dp"
+																  >
+																  
+																  <ImageView 
+																  android:id="@+id/ImgRegularicon"
+																  android:background="@drawable/zenicon" 
+																  android:layout_width="wrap_content" 
+																  android:layout_height="wrap_content"/>
+																  
+																  <ImageView 
+																  android:id="@+id/Img_Zeni_icon_Anim"
+																  android:layout_width="40dp"
+																  android:layout_height="40dp"
+																  android:background="@anim/button_anim"/>
+															  </FrameLayout>
+														</LinearLayout>
+														
+														<!-- Icon6 -->
+														<LinearLayout
+														android:layout_width="wrap_content"
+														android:layout_height="wrap_content"
+														android:layout_weight="1"
+														>			  
+															  <FrameLayout  
+																  android:layout_width="wrap_content"
+																  android:layout_height="wrap_content"
+																  android:layout_marginTop="5dp"
+																  >
+																  
+																  <ImageView 
+																  android:id="@+id/ImgRegularicon"
+																  android:background="@drawable/naturemodeicon" 
+																  android:layout_width="wrap_content"
+																  android:layout_height="wrap_content"
+																  />
+																  
+																  <ImageView 
+																  android:id="@+id/Img_NatureMode_icon_Anim"
+																 android:layout_width="40dp"
+																  android:layout_height="40dp"
+																  android:background="@anim/button_anim"/>
+																  </FrameLayout>
+																  
+														</LinearLayout>
+														
+														<!-- Icon7 -->
+														<LinearLayout
+														android:layout_width="wrap_content"
+														android:layout_height="wrap_content"
+														android:layout_weight="1"
+														>			  
+															<FrameLayout  
+																  android:layout_width="wrap_content"
+																  android:layout_height="wrap_content"
+																  android:layout_marginRight="7dp"
+																  android:layout_marginTop="5dp"
+																  >
+																  
+																  <ImageView 
+																  android:id="@+id/ImgRegularicon"
+																  android:background="@drawable/lottomodeicon" 
+																  android:layout_width="wrap_content"
+																  android:layout_height="wrap_content"/>
+																  
+																  <ImageView 
+																  android:id="@+id/Img_LottoMode_icon_Anim"
+																  android:layout_width="40dp"
+																  android:layout_height="40dp"
+																  android:background="@anim/button_anim"/>
+																  </FrameLayout>
+														</LinearLayout>
+											</LinearLayout>
+						
+													<!-- Two Button -->
+													
+												 <LinearLayout
+															android:layout_width="wrap_content"
+															android:layout_height="wrap_content"
+															android:orientation="horizontal"
+															android:layout_below="@id/Linear2Icons"
+															android:layout_weight="1"
+															android:paddingTop="30dp"
+															android:layout_marginBottom="10dp"
+															android:layout_centerHorizontal="true"
+												 >
+												  <FrameLayout  
+												  android:layout_width="wrap_content"
+												  android:layout_height="wrap_content"
+												  android:layout_marginLeft="5dp">
+							  
+												  <ImageView 
+												  android:id="@+id/ImgMenuIcon"
+												  android:background="@drawable/modemenubttn" 
+												  android:layout_width="wrap_content" 
+												  android:layout_height="wrap_content"/>
+												  </FrameLayout>
+												  
+												  <FrameLayout  
+												  android:layout_width="wrap_content"
+												  android:layout_height="wrap_content"
+												  android:layout_marginRight="5dp"
+												  >
+														  <ImageView 
+														  android:id="@+id/ImgPlayClassic"
+														  android:background="@drawable/playbuttonclassic" 
+														  android:layout_width="wrap_content" 
+														  android:layout_height="wrap_content"/>
+												  </FrameLayout>	
+												</LinearLayout>
+						</RelativeLayout>
+						
+						</FrameLayout>
+				</LinearLayout>
+				 
+  
+  
+				<!-- SelectMode -Right Part -->
+				<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal|center_vertical"
+						android:layout_marginRight="30dip"
+						android:layout_weight="1"
+				>
+				  <ImageView 
+				  android:id="@+id/ImgModes"
+				  android:background="@drawable/moderegular"
+				  android:layout_width="fill_parent"
+				  android:layout_height="fill_parent"
+				  android:layout_gravity="right"
+				  />
+			</LinearLayout>
+				
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

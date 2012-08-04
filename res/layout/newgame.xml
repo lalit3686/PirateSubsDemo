@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/amazon_background_1024">
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/parentLayout"
+		android:layout_centerInParent="true"
+		android:background="@drawable/leaderboard1"
+		android:orientation="horizontal"
+		android:layout_margin="5dp"
+		>
+		<RelativeLayout
+			android:id="@+id/layoutchild1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			android:padding="0dip"
+			android:layout_marginBottom="10dip"
+			android:layout_marginLeft="10dip"
+			>
+			<FrameLayout
+				android:background="@drawable/newgamebackground"
+				android:layout_width="250dip"
+				android:layout_height="200dip"
+				
+			 >
+		   <ImageView
+				android:background="@drawable/gameovermenubutton"
+				android:layout_width="50dip"
+				android:layout_height="50dip"
+				android:id="@+id/ibtnMenuButton"
+				android:layout_gravity="top|left"
+				android:layout_marginLeft="15dp"
+				android:layout_marginTop="15dp"
+				
+			/>
+			<ImageView
+				android:layout_width="120dip"
+				android:layout_height="120dip"
+				android:id="@+id/ibtnNewGameButton"
+				android:layout_below="@id/ibtnMenuButton"
+				android:background="@drawable/newgamebutton"
+				android:layout_gravity="center"
+				android:layout_marginLeft="10dip"
+			/>
+			</FrameLayout>
+		</RelativeLayout>
+		<RelativeLayout
+			android:id="@+id/layoutchild2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigbluebg1"
+			android:layout_toRightOf="@id/layoutchild1"
+			
+			android:padding="0dip"
+			android:layout_marginBottom="20dip"
+			android:layout_marginTop="10dip"
+			android:layout_marginRight="20dip"
+		>
+			<ImageView
+				android:background="@drawable/gofriends"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_alignParentTop="true"
+				android:id="@+id/gofriends"
+				android:layout_marginTop="10dip"
+			/>
+			<ListView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/lstfriendList"
+				android:layout_below="@id/gofriends"
+				android:layout_marginLeft="10dip"
+				
+			/>
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+					android:id="@+id/tvError"
+					android:text="Net Connection is Required."
+					android:layout_below="@id/gofriends"
+					android:textStyle="bold"
+					android:visibility="invisible"
+			/>
+		</RelativeLayout>
+	</LinearLayout>
+	
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+
+	<TextView 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="(username)">
+	</TextView>
+	
+	
+	<ImageView 
+	android:id="@+id/ImageView01" 
+	android:layout_width="50dip" 
+	android:layout_height="50dip">
+	</ImageView>
+	
+	
+</LinearLayout>-->
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TableLayout android:id="@+id/TblMe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0" >
+    	<TableRow android:id="@+id/TableRow00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/Gray">
+    		<Button android:id="@+id/btnPre" android:layout_gravity="left" android:text="Pirate Stub !!"></Button>
+		 	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Who is playing" android:textSize="16sp" android:textStyle="bold|italic" android:gravity="fill_vertical" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:background="@color/White" />
+		</TableRow>
+    	
+    	<TableRow android:id="@+id/TableRow00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/Gray">
+			 	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="me" android:textSize="16sp" android:textStyle="bold|italic" />
+			 	<TextView android:text="" android:layout_width="wrap_content" android:textColor="#FF3300" android:layout_height="wrap_content" android:id="@+id/txtStatus1"></TextView>
+		</TableRow>
+	 	
+		<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content">
+		
+		<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content"   >
+			<TableRow>
+				<ImageView 
+				android:id="@+id/ImageView01" 
+				android:layout_width="150dip" 
+				android:layout_height="125dip"
+				/>
+			</TableRow>
+		</TableLayout >
+		<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+			<TableRow>
+				<TextView android:id="@+id/TextView01"   android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(username)" ></TextView>
+			</TableRow>
+			<TableRow>
+				<TextView android:id="@+id/txtStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""  android:textColor="#003300"></TextView>
+			</TableRow>
+			<TableRow>
+			</TableRow>
+			
+			<TableRow>
+				<TextView android:id="@+id/txtGameName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" ></TextView>
+			</TableRow>
+			<TableRow>
+				<TextView android:id="@+id/txtGameScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" ></TextView>
+			</TableRow>
+			<TableRow>
+				<TextView android:id="@+id/txtTotalScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" ></TextView>
+			</TableRow>
+			
+		</TableLayout>
+	   </TableRow>
+	   
+  </TableLayout>
+  
+   
+</ScrollView>

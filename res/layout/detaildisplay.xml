@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TableRow>
+	  	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(username)"></TextView>
+  </TableRow>
+ <TableRow >
+		<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+ </TableRow>	
+  <TableRow >
+  	<TextView
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:gravity="left"
+  	    android:layout_weight="1"
+  	    android:text="Score"
+  	    android:id="@+id/tv_score"	>
+  	</TextView>		
+  </TableRow>
+  <TableRow >
+  <TextView
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:gravity="left"
+  	    android:layout_weight="1"
+  	    android:text="Score"
+  	    android:id="@+id/tv_username" >
+  </TextView>
+  </TableRow>
+  <TableRow>
+  <TextView
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:gravity="left"
+  	    android:layout_weight="1"
+  	    android:text="Score"
+  	    android:id="@+id/tv_nooffriends"		
+  >
+  </TextView>
+  </TableRow>
+  
+</TableLayout>

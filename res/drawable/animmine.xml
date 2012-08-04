@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+  <item android:drawable="@drawable/mine01" android:duration="50" /> 
+  <item android:drawable="@drawable/mine02" android:duration="50" /> 
+  <item android:drawable="@drawable/mine03" android:duration="50" /> 
+  <item android:drawable="@drawable/mine04" android:duration="50" /> 
+  <item android:drawable="@drawable/mine05" android:duration="50" />
+  <item android:drawable="@drawable/mine06" android:duration="50" />
+  <item android:drawable="@drawable/mine07" android:duration="50" />
+  <item android:drawable="@drawable/mine08" android:duration="50" />
+  <item android:drawable="@drawable/mine09" android:duration="50" /> 
+ 
+ </animation-list>

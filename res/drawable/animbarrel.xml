@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+  <item android:drawable="@drawable/barrel01" android:duration="50" /> 
+  <item android:drawable="@drawable/barrel02" android:duration="50" /> 
+  <item android:drawable="@drawable/barrel03" android:duration="50" /> 
+  <item android:drawable="@drawable/barrel04" android:duration="50" /> 
+  <item android:drawable="@drawable/barrel05" android:duration="50" />
+  <item android:drawable="@drawable/barrel06" android:duration="50" />
+  <item android:drawable="@drawable/barrel07" android:duration="50" />
+  <item android:drawable="@drawable/barrel08" android:duration="50" />
+ </animation-list>

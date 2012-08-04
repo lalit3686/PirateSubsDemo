@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false" android:visible="true" >
+  <item android:drawable="@drawable/bird01" android:duration="50" /> 
+  <item android:drawable="@drawable/bird02" android:duration="50" /> 
+  <item android:drawable="@drawable/bird03" android:duration="50" /> 
+  <item android:drawable="@drawable/bird04" android:duration="50" /> 
+  <item android:drawable="@drawable/bird05" android:duration="50" />
+  <item android:drawable="@drawable/bird06" android:duration="50" />
+  <item android:drawable="@drawable/bird07" android:duration="50" />
+  <item android:drawable="@drawable/bird08" android:duration="50" />
+  <item android:drawable="@drawable/bird09" android:duration="50" /> 
+  <item android:drawable="@drawable/bird10" android:duration="50" /> 
+  <item android:drawable="@drawable/bird11" android:duration="50" /> 
+  <item android:drawable="@drawable/bird12" android:duration="50" /> 
+  <item android:drawable="@drawable/bird13" android:duration="50" />
+  <item android:drawable="@drawable/bird14" android:duration="50" />
+  <item android:drawable="@drawable/bird15" android:duration="50" />
+  <item android:drawable="@drawable/bird16" android:duration="50" />
+  <item android:drawable="@drawable/bird17" android:duration="50" /> 
+  <item android:drawable="@drawable/bird18" android:duration="50" />
+  <item android:drawable="@drawable/bird19" android:duration="50" />
+  <item android:drawable="@drawable/bird20" android:duration="50" />
+ </animation-list>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/amazon_background_1024">
+
+	<RelativeLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/parentLayout"
+		android:layout_centerInParent="true"
+		android:background="@drawable/leaderboard1"
+		android:layout_margin="25dip"
+		>
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal" android:id="@+id/childLayout1"
+			android:layout_alignParentTop="true"
+			>
+			<RelativeLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<ImageView android:src="@drawable/score"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_marginTop="10dp" android:id="@+id/imagescor" />
+				<RelativeLayout android:layout_width="wrap_content"
+					android:background="@drawable/bluebg" android:layout_height="wrap_content"
+					android:id="@+id/lLayout1" 
+					android:layout_below="@id/imagescor" android:layout_marginLeft="10dp"
+					android:layout_marginBottom="10dp"
+					>
+					<TextView android:textSize="40sp" android:shadowDx="2"
+						android:shadowColor="#00ccff" android:shadowDy="1"
+						android:shadowRadius="1.5" android:text="48" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/txtBigDigitScore"
+						android:layout_alignParentLeft="true"
+						android:layout_marginLeft="20dp"
+						android:layout_centerVertical="true" 
+						android:layout_marginRight="30dp"></TextView>
+					<ImageView android:layout_toRightOf="@id/txtBigDigitScore"
+						android:id="@+id/imageView1" android:src="@drawable/twitfb"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_marginRight="5dp" android:layout_centerVertical="true"/>
+				</RelativeLayout>
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/rLayoutsecond1"
+					android:layout_gravity="left" android:layout_weight="1"
+					android:layout_below="@id/lLayout1" android:orientation="vertical"
+					android:layout_marginLeft="30dp"
+					android:background="@drawable/plan"
+					>
+
+					<RelativeLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+						android:paddingBottom="5dp">
+						<ImageView android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:src="@drawable/highscore"
+							android:id="@+id/lblscore" />
+						<TextView android:text="400" android:id="@+id/txtscore"
+							android:layout_width="50dp" android:layout_height="wrap_content"
+							android:shadowColor="#00ccff" android:shadowRadius="1.5"
+							android:shadowDx="4" android:shadowDy="1" android:textSize="20sp"
+							android:layout_toRightOf="@id/lblscore"
+							android:layout_marginLeft="10dp" />
+					</RelativeLayout>
+					<RelativeLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+						android:paddingBottom="5dp">
+						<ImageView android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:src="@drawable/subskilled"
+							android:id="@+id/lblsubkilledscore" />
+						<TextView android:layout_width="50dp"
+							android:layout_height="wrap_content" android:text="34"
+							android:id="@+id/txtsubkilled" android:layout_toRightOf="@id/lblsubkilledscore"
+							android:shadowColor="#00ccff" android:shadowRadius="1.5"
+							android:shadowDx="4" android:shadowDy="1" android:textSize="20sp"
+							android:layout_marginLeft="15dp" />
+
+					</RelativeLayout>
+					<RelativeLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+						android:paddingBottom="5dp">
+						<ImageView android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:src="@drawable/timeplayed"
+							android:id="@+id/lbltimeplayed" />
+						<TextView android:layout_width="50dp"
+							android:layout_height="wrap_content" android:text="102"
+							android:id="@+id/txttimeplayed" android:layout_toRightOf="@id/lbltimeplayed"
+							android:shadowColor="#00ccff" android:shadowRadius="1.5"
+							android:shadowDx="4" android:shadowDy="1" android:textSize="20sp"
+							android:layout_marginLeft="10dp" />
+					</RelativeLayout>
+				</LinearLayout>
+			
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				>
+				<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/awardstext"
+					android:layout_alignParentRight="true" android:layout_centerHorizontal="true"
+					android:layout_marginTop="10dp" android:id="@+id/imageachievment" />
+				<RelativeLayout android:layout_width="wrap_content"
+					android:background="@drawable/woodbg" android:layout_height="wrap_content"
+					android:id="@+id/rLayoutsecond1" android:layout_toRightOf="@id/rLayoutsecond1"
+					android:layout_centerHorizontal="true"
+					android:layout_below="@id/imageachievment"
+					android:layout_marginBottom="10dp"
+					android:layout_marginRight="10dp"
+					>
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:src="@drawable/gomissile"
+						android:id="@+id/ibtngomissile" android:layout_centerVertical="true" />
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:src="@drawable/gonobear"
+						android:id="@+id/ibtngonobear" android:layout_toRightOf="@id/ibtngomissile"
+						android:layout_centerVertical="true" />
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:src="@drawable/gobomb"
+						android:id="@+id/ibtngobomb" android:layout_toRightOf="@id/ibtngonobear"
+						android:layout_centerVertical="true" />
+				</RelativeLayout>
+				<RelativeLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/rLayoutsecond2"
+					 android:background="@drawable/bigbluebg"
+					android:layout_below="@id/rLayoutsecond1"
+					android:layout_centerHorizontal="true"
+					android:layout_marginRight="10dip"
+					>
+					<RelativeLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentLeft="true" android:id="@+id/rLayoutthree1">
+						<LinearLayout android:orientation="vertical"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp" android:layout_marginTop="5dp">
+							<RelativeLayout android:layout_width="wrap_content"
+								android:layout_height="wrap_content" 
+								android:paddingBottom="5dp"
+								android:layout_gravity="top"
+								>
+								<ImageView android:layout_width="wrap_content"
+									android:layout_height="wrap_content" 
+									android:src="@drawable/combos2"
+									android:id="@+id/imgcombos2" 
+									/>
+								<TextView android:layout_height="22dip"
+									android:layout_width="wrap_content" android:id="@+id/txtcom2"
+									android:layout_toRightOf="@id/imgcombos2" android:text="6"
+									android:shadowColor="#00ccff" android:shadowRadius="1.5"
+									android:shadowDx="4" android:shadowDy="1" android:textSize="20sp" 
+									
+									/>
+							</RelativeLayout>
+							<RelativeLayout android:layout_width="wrap_content"
+								android:layout_height="wrap_content" android:paddingBottom="5dp"
+									android:layout_gravity="top"
+								>
+								<ImageView android:layout_width="wrap_content"
+									android:layout_height="wrap_content" android:src="@drawable/combos3"
+									android:id="@+id/imgcombos3" />
+								<TextView android:id="@+id/txtcom3"
+										 android:layout_height="wrap_content" 
+										 android:layout_width="wrap_content"	
+										 android:text="0" 
+										 android:layout_toRightOf="@id/imgcombos3" 
+										 android:shadowColor="#00ccff"
+										 android:shadowRadius="1.5"
+										 android:shadowDx="4"
+										 android:shadowDy="1" 
+										 android:textSize="20sp"
+									 />
+							</RelativeLayout>
+							<RelativeLayout android:layout_width="wrap_content"
+								android:layout_height="wrap_content" android:paddingBottom="5dp"
+								android:layout_gravity="top"
+								>
+								<ImageView android:layout_width="wrap_content"
+									android:layout_height="wrap_content" android:src="@drawable/combos4"
+									android:id="@+id/imgcombos4" />
+								<TextView android:layout_width="wrap_content"
+									android:layout_height="22dip" android:text="0"
+									android:id="@+id/txtcom4" android:layout_toRightOf="@id/imgcombos4"
+									android:shadowColor="#00ccff" android:shadowRadius="1.5"
+									android:shadowDx="4" android:shadowDy="1" android:textSize="20sp"
+									
+									 />
+							</RelativeLayout>
+							<RelativeLayout android:layout_width="wrap_content"
+								android:layout_height="wrap_content" android:paddingBottom="5dp"
+									android:layout_gravity="top"
+								>
+								<ImageView android:layout_width="wrap_content"
+									android:layout_height="wrap_content" android:src="@drawable/combos5"
+									android:id="@+id/imgcombos5" />
+								<TextView android:layout_width="wrap_content"
+									android:layout_height="22dip" android:text="0"
+									android:id="@+id/txtcom5" android:layout_toRightOf="@id/imgcombos5"
+									android:shadowColor="#00ccff" android:shadowRadius="1.5"
+									android:shadowDx="4" android:shadowDy="1" android:textSize="20sp" 
+									android:layout_alignParentTop="true"
+									/>
+							</RelativeLayout>
+						</LinearLayout>
+					</RelativeLayout>
+
+					<RelativeLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/rLayoutthree2"
+						android:layout_toRightOf="@id/rLayoutthree1"
+						android:layout_centerInParent="true">
+						<ImageView android:background="@drawable/goach"
+							android:layout_height="wrap_content" android:id="@+id/ibtngoach"
+							android:layout_width="wrap_content"
+							android:layout_centerInParent="true"
+							>
+						</ImageView>
+					</RelativeLayout>
+				</RelativeLayout>
+			</RelativeLayout>
+		</LinearLayout>
+		<ImageView 
+					android:layout_width="wrap_content"
+				    android:layout_height="wrap_content" 
+				    android:id="@+id/ibtncontinue"
+					android:src="@drawable/gocontinue"
+					android:layout_marginLeft="30dp"
+					android:layout_below="@id/childLayout1"
+					android:layout_marginBottom="10dp"
+		/>
+	</RelativeLayout>
+	
+
+</RelativeLayout>
+		
+			

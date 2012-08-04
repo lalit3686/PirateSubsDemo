@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+android:oneshot="false" android:visible="true">
+<item android:drawable="@drawable/shwing1" android:duration="50" />
+<item android:drawable="@drawable/shwing2" android:duration="50" />
+<item android:drawable="@drawable/shwing3" android:duration="50" />
+<item android:drawable="@drawable/shwing4" android:duration="50" />
+<item android:drawable="@drawable/shwing5" android:duration="50" />
+<item android:drawable="@drawable/shwing6" android:duration="50" />
+<item android:drawable="@drawable/shwing7" android:duration="50" />
+<item android:drawable="@drawable/shwing8" android:duration="50" />
+<item android:drawable="@drawable/shwing9" android:duration="50" />
+<item android:drawable="@drawable/shwing10" android:duration="50" />
+<item android:drawable="@drawable/shwing11" android:duration="50" />
+<item android:drawable="@drawable/shwing12" android:duration="50" />
+<item android:drawable="@drawable/shwing13" android:duration="50" />
+<item android:drawable="@drawable/shwing14" android:duration="50" />
+<item android:drawable="@drawable/shwing15" android:duration="50" />
+<item android:drawable="@drawable/shwing16" android:duration="6300" />
+</animation-list>
